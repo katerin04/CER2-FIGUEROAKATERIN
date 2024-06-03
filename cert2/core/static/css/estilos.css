@@ -1,0 +1,105 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.section {
+    height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#section1 {
+    background-color:#005e90;
+    color: white; 
+    font-size: 2.5em; 
+}
+
+#section2 {
+    background-color: white;
+    color: black;
+}
+
+#section3 {
+    background-color: #005e90;
+    color: black;
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding-left: 20em; 
+}
+
+.navbar-custom {
+    background-color: #005e90;
+}
+
+.navbar-custom .nav-link, .navbar-custom .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-custom .nav-link:hover {
+    color: #657680;
+}
+
+.btn-custom {
+    background-color: #e5b300 !important;
+    color: white !important;
+    border: none;
+}
+
+.btn-custom:hover {
+    background-color: #c49a00 !important;
+    color: white !important;
+}
+
+.btn-blue {
+    background-color: #007bff !important;
+    color: white !important;
+    border: none;
+}
+
+.btn-blue:hover {
+    background-color: #0056b3 !important;
+    color: white !important;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f9f9f9;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+}
+
+.table thead th {
+    background-color: #005e90;
+    color: white;
+}
+
+.login-form {
+    background-color: white; /* Fondo blanco sólido */
+    padding: 2em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para darle un poco de profundidad */
+}
+
+.login-form h2 {
+    color: black;
+    margin-bottom: 1em;
+}
+
+.login-form .form-label, .login-form .form-control {
+    color: black;
+}
+
+.login-form .form-control {
+    background-color: #f8f9fa; /* Fondo gris claro */
+    border: 1px solid #ced4da; /* Borde gris */
+}
+
+.login-form .btn-custom {
+    margin-top: 1em;
+}
